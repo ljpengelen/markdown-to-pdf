@@ -17,7 +17,7 @@ Software developer
 
 ## Profile
 
-Luc is a software developer that combines a strong theoretical background with practical experience in developing web and mobile applications.
+Luc is a software developer that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
 After obtaining his PhD at the Eindhoven University of Technology (TU/e), he worked as a Postdoctoral researcher and teacher at the same university before switching to industry.
 As a software developer, he worked on Java back ends for a variety of web applications, including a number of self-service portals for customers of credit card resellers and an enterprise service bus.
 Additionally, he has worked on an SDK for iOS, native iOS applications, hybrid mobile applications, and as a full stack developer on a number of Ruby on Rails applications.
