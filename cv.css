@@ -1,0 +1,74 @@
+@page {
+  margin-top: 3cm;
+  size: A4;
+
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+  }
+
+  @bottom-center {
+    color: #808080;
+    content: string(heading-name) " - " string(heading-title);
+  }
+
+  @top-right {
+    background: url(kabisa-logo-two-color.svg) no-repeat bottom;
+    background-size: 5cm;
+    content: "";
+    width: 5cm;
+  }
+}
+
+@page cover {
+  @bottom-center: {
+    content: "";
+  }
+
+  @bottom-right {
+    content: "";
+  }
+}
+
+html {
+  font-family: system-ui;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+  page: cover;
+  string-set: heading-name content();
+  margin-bottom: 0rem;
+  margin-top: 50%;
+}
+
+.job-title {
+  font-style: italic;
+  margin-top: 0;
+  string-set: heading-title content();
+}
+
+h2 {
+  page-break-before: always;
+  string-set: heading content();
+}
+
+h3, h4 {
+  margin-top: 2rem;
+}
+
+h2 + h3, h3 + h4 {
+  margin-top: inherit;
+}
+
+.avoid-page-break-inside, ul {
+  page-break-inside: avoid;
+}
+
+td, th {
+  padding: 0.5rem 1rem 0;
+}
+
+td:first-child, th:first-child {
+  padding-left: 0;
+}
