@@ -10,6 +10,7 @@ pylint = "*"
 [packages]
 markdown = "*"
 weasyprint = "*"
+markdown-include = "*"
 
 [requires]
 python_version = "3.7"

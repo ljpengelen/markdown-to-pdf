@@ -12,7 +12,9 @@ with codecs.open("cv.md", mode="r", encoding="utf-8") as input_file:
       <body>
     """
 
-    html += markdown.markdown(text, extensions=["extra", "meta", "tables"])
+    html += markdown.markdown(
+        text, extensions=["extra", "markdown_include.include", "meta", "tables"]
+    )
 
     html += """
       </body>
