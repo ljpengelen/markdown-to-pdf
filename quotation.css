@@ -1,0 +1,107 @@
+@page {
+  margin-top: 4cm;
+  size: A4;
+
+  @bottom-left {
+    color: #808080;
+    content: string(title);
+  }
+
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+  }
+
+  @top-left {
+    background-color: #ccc;
+    content: "";
+    width: 100%
+  }
+
+  @top-left-corner {
+    background-color: #ccc;
+    content: "";
+    width: 100%;
+  }
+
+  @top-right {
+    background: url(kabisa-logo-grey.svg) #ccc no-repeat center;
+    background-size: 5cm;
+    content: "";
+    width: 5cm;
+  }
+
+  @top-right-corner {
+    background-color: #ccc;
+    content: "";
+    width: 100%;
+  }
+}
+
+@page cover {
+  background-color: #8bf;
+
+  @bottom-left: {
+    content: "";
+  }
+
+  @bottom-right {
+    content: "";
+  }
+
+  @top-left {
+    content: none;
+  }
+
+  @top-left-corner {
+    content: none;
+  }
+
+  @top-right {
+    background: url(kabisa-logo-white.svg) no-repeat center;
+    background-size: 5cm;
+  }
+
+  @top-right-corner {
+    content: none;
+  }
+}
+
+html {
+  font-family: system-ui;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  page: cover;
+  string-set: title content();
+  margin-bottom: 0rem;
+  margin-top: 50%;
+}
+
+.sub {
+  color: #fff;
+  font-size: 1.5rem;
+  font-style: italic;
+  /* margin-left: 3rem; */
+  margin-top: 0;
+}
+
+.footer {
+  font-size: 0.9rem;
+  color: #fff;
+  display: flex;
+  margin-top: 50%;
+}
+
+.footer div {
+  border-left: 1px solid #fff;
+  flex: 1;
+  padding-left: 1rem;
+}
+
+h2 {
+  margin-top: 3rem;
+  page-break-before: always;
+}
