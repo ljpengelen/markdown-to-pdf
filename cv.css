@@ -48,6 +48,19 @@ h1 {
   string-set: heading-title content();
 }
 
+.contact-information {
+  font-size: 0.75rem;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+
+.contact-information ul {
+  list-style-type: none;
+}
+
 h2 {
   page-break-before: always;
   string-set: heading content();
