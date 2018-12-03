@@ -5,7 +5,7 @@ The heavy lifting is done by [Python-Markdown](https://python-markdown.github.io
 With a small script that combines the HTML from a Markdown file with a CSS stylesheet, [my CV in Markdown](https://github.com/ljpengelen/markdown-to-pdf/blob/master/cv.md) is converted into [a PDF document](https://github.com/ljpengelen/markdown-to-pdf/blob/master/cv.pdf).
 
 This is just a proof-of-concept at the moment.
-Turning this idea into a stand alone tool is straightforward.
+Turning this idea into a stand alone tool is straightforward, however.
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ Turning this idea into a stand alone tool is straightforward.
 1. Create a new virtual environment with all dependencies by executing `pipenv install --dev --ignore-pipfile`.
   The flag `ignore-pipfile` is used to indicate that the exact versions of the dependencies as specified in `Pipfile.lock` should be installed.
   The flag `dev` is used to also install development dependencies.
-  
+
 ## Activating the virtual environment
 
 Before executing any of the commands below, you need to activate the virtual environment for this toolchain.
@@ -31,3 +31,7 @@ It can be deactivated by executing `exit`.
 
 1. Execute `python cv.py` to convert `cv.md` and `cv.css` into a single file `cv.html`.
 1. Execute `weasyprint cv.html cv.pdf` to convert the HTML file into a PDF document.
+
+## CSS for print
+
+If you want to design your own documents, take a look at [designing for print with CSS](https://www.smashingmagazine.com/2015/01/designing-for-print-with-css/) by Rachel Andrew.
