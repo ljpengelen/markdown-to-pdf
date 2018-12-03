@@ -106,3 +106,12 @@ h2 {
   margin-top: 3rem;
   page-break-before: always;
 }
+
+h2::before {
+  background-color: #8bf;
+  content: "";
+  display: inline-block;
+  height: 1.5rem;
+  margin-right: 1rem;
+  width: 1.5rem;
+}
