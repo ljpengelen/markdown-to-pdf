@@ -13,7 +13,9 @@
 
   @top-left {
     background-color: #ccc;
-    content: "";
+    color: #787878;
+    content: "www.kabisa.nl | info@kabisa.nl";
+    padding-top: 1.6cm;
     width: 100%
   }
 
