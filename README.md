@@ -7,7 +7,7 @@ With this script, [my CV in Markdown](https://github.com/ljpengelen/markdown-to-
 ## Getting Started
 
 1. Install [pyenv](https://github.com/pyenv/pyenv), a tool for managing [Python](https://www.python.org/) versions.
-1. The file `.python-version` in the root folder specifies the Python version required by this toolchain.
+1. The file `.python-version` in the root folder specifies the Python version required by the conversion script.
   Navigate to the root folder and execute `pyenv install` to install this Python version.
 1. Install `cairo`, `pango`, and `gdk-pixbuf`.
   On macOS, these tools can be installed with `brew`.
@@ -19,7 +19,7 @@ With this script, [my CV in Markdown](https://github.com/ljpengelen/markdown-to-
 
 ## Activating the virtual environment
 
-Before executing any of the commands below, you need to activate the virtual environment for this toolchain.
+Before executing any of the commands below, you need to activate the virtual environment.
 You can do so by executing `pipenv shell`.
 Your command prompt should now indicate that you've activated the virtual environment.
 It can be deactivated by executing `exit`.
