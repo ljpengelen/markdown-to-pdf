@@ -1,11 +1,8 @@
 # Markdown to PDF
 
-This repository contains (an outdated version of) my CV in Markdown, which can be converted into a PDF document using the toolchain described below.
+This repository contains a simple script that converts Markdown and CSS into PDF documents.
 The heavy lifting is done by [Python-Markdown](https://python-markdown.github.io/), a tool for generating HTML from Markdown, and [WeasyPrint](https://weasyprint.org), a tool for generating PDF documents from HTML and CSS.
-With a small script that combines the HTML from a Markdown file with a CSS stylesheet, [my CV in Markdown](https://github.com/ljpengelen/markdown-to-pdf/blob/master/cv.md) is converted into [a PDF document](https://github.com/ljpengelen/markdown-to-pdf/blob/master/cv.pdf).
-
-This is just a proof-of-concept at the moment.
-Turning this idea into a stand alone tool is straightforward, however.
+With this script, [my CV in Markdown](https://github.com/ljpengelen/markdown-to-pdf/blob/master/examples/cv.md) is converted into [a PDF document](https://github.com/ljpengelen/markdown-to-pdf/blob/master/examples/cv.pdf).
 
 ## Getting Started
 
@@ -27,10 +24,17 @@ You can do so by executing `pipenv shell`.
 Your command prompt should now indicate that you've activated the virtual environment.
 It can be deactivated by executing `exit`.
 
-## Generating the PDF
+## Generating PDFs
 
-1. Execute `python cv.py` to convert `cv.md` and `cv.css` into a single file `cv.html`.
-1. Execute `weasyprint cv.html cv.pdf` to convert the HTML file into a PDF document.
+The `examples` folder contains a CV and a quotation.
+
+* Execute `python md2pdf.py convert examples/cv.md examples/cv.css` to generate a PDF version of the CV.
+* Execute `python md2pdf.py convert examples/quotation.md examples/quotation.css` to generate a PDF version of the quotation.
+
+When writing or designing documents, you can use `python md2pdf.py watch <document_name>.md <stylesheet_name>.css`.
+This will watch the given files and generate new output when they change.
+Both an HTML document and a PDF document are generated.
+The HTML document is generated because it's convenient to be able to play around with the CSS in a browser.
 
 ## CSS for print
 
