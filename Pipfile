@@ -13,6 +13,7 @@ markdown = "*"
 markdown-include = "*"
 weasyprint = "*"
 werkzeug = "*"
+watchdog = "*"
 
 [requires]
 python_version = "3.7"
