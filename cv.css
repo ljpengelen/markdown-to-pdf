@@ -31,6 +31,7 @@
 
 html {
   font-family: system-ui;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -74,7 +75,7 @@ h2 + h3, h3 + h4 {
   margin-top: inherit;
 }
 
-.avoid-page-break-inside, ul {
+ul {
   page-break-inside: avoid;
 }
 
@@ -84,4 +85,14 @@ td, th {
 
 td:first-child, th:first-child {
   padding-left: 0;
+}
+
+.technologies {
+  font-style: italic;
+  page-break-before: avoid;
+}
+
+.technologies::before {
+  content: "Technologies used: ";
+  font-weight: bold;
 }
