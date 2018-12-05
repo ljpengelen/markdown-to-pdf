@@ -12,7 +12,6 @@ click = "*"
 markdown = "*"
 markdown-include = "*"
 weasyprint = "*"
-werkzeug = "*"
 watchdog = "*"
 
 [requires]
