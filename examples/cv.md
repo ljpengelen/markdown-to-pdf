@@ -9,68 +9,61 @@ Software developer
 
 Luc is a software developer that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
 After obtaining his PhD at the Eindhoven University of Technology (TU/e), he worked as a Postdoctoral researcher and teacher at the same university before switching to industry.
-As a software developer, he worked on Java back ends for a variety of web applications, including a number of self-service portals for customers of credit card resellers and an enterprise service bus.
-Additionally, he has worked on an SDK for iOS, native iOS applications, hybrid mobile applications, and as a full stack developer on a number of Ruby on Rails applications.
+As a software developer, he worked on Java, Rails, and Python back ends for a variety of web applications, including a number of self-service portals for customers of credit card resellers and an enterprise service bus.
+Additionally, he has worked on an SDK for iOS, native iOS applications, cross-platform mobile applications, and as a full stack developer on a number of Ruby on Rails applications.
 
 ## Skills
 
-### Programming Languages
+### Programming languages
 
+* C
+* C++
 * Java
 * JavaScript (and CoffeeScript)
 * Objective-C
-* Ruby
+* (Object) Pascal
 * PHP
 * Python
+* Ruby
 * Swift
-* (Object) Pascal
-* C++
-* C
-
-### Frameworks and Libraries
-
-* Java EE
-* Cocoa Touch
-* Ruby on Rails
-* Backbone (and Marionette)
-* jQuery
-* Apache Camel
-* Maji Mobile
-* JUnit
-* Mocha
-
-### Software engineering
-
-* Object-oriented programming
-* Functional programming
-* TDD
-* (Architectural) Design Patterns
 
 ### Back end
 
 * Java EE (JBoss EAP and WebLogic)
+* JUnit
+* Mockito
 * Ruby on Rails
 
 ### Front end
 
-* JavaScript (and CoffeeScript)
-* jQuery
 * Backbone (and Marionette)
 * CSS and SCSS
-* React
+* JavaScript (and CoffeeScript)
+* jQuery
+* Mocha
+* Preact
 * Redux
+* Webpack
 
 ### Mobile
 
+* Cocoa Touch
+* Cordova
+* Maji Mobile
 * Objective-C
 * Swift
-* Maji Mobile
-* Cordova
+
+### System integration
+
+* Apache Camel
 
 ### DevOps
 
 * Ansible
+* Jenkins
+* Microsoft Azure
 * Docker
+* Terraform
 
 ## Experience
 
@@ -79,12 +72,30 @@ Additionally, he has worked on an SDK for iOS, native iOS applications, hybrid m
 Kabisa is specialized in developing elegant software solutions using technologies such as Ruby on Rails, Java, and Python.
 Luc has worked on the following projects:
 
+#### Signify - September 2017 - Current
+
+Signify is the new company name of Philips Lighting.
+Signify is a world leader in connected LED lighting systems, software, and services.
+Their innovations unlock the extraordinary potential of light to improve the quality of people's lives and to work towards a sustainable future.
+
+Within Signify's indoor navigation department, Luc created a web application for the creation of mapping data.
+Among other things, this app allows users to define the walkable and non-walkable areas for each floor of a given venue, align technical images and designed maps in the browser, and tiles large images of maps for efficient use on mobile devices.
+The app produces ready-to-use maps in a proprietary binary format for Signify's indoor navigation SDKs for Android and iOS.
+
+Additionally, Luc and a colleague created a cross-platform mobile application for the Light+Building fair in Frankfurt.
+This app was used to demonstrate how indoor navigation could assist retail staff during their day-to-day activities.
+
+Python, Falcon, Pytest, OpenCV, Preact, Redux, Cordova, Webpack, ES6, HTML5 Canvas, Karma, Mocha, Sinon, Chai, Ansible, Terraform, and Microsoft Azure.
+{: .technologies}
+
 #### Philips - Januari 2017 - September 2017
 
 Philips is one of the largest electronics companies in the world.
 Its health watch empowers you to live a healthier life by tracking heart rate and other metrics of your cardio condition, as well as activity, sleep and more.
 
-As a Java developer at Philips, Luc worked on a few of the most mission-critical micro services that power the apps for the Philips health watch.
+As a Java developer at Philips, Luc worked on a few of the most mission-critical micro services that power the mobile apps for the Philips health watch.
+Each micro service is a Spring Boot application, connected to its own PostgreSQL database.
+The micro services communicate with each other and the outside world via REST APIs and RAbbitMQ.
 
 Java, Spring Boot, RabbitMQ, PostgreSQL, JUnit, Maven, and Mockito
 {: .technologies}
@@ -101,7 +112,7 @@ Luc extended Flux, an existing Kabisa product, to suit the needs of Euramax and 
 Ruby on Rails, CoffeeScript, RSpec, Java, Junit, Maven, MongoDB, Elasticsearch, Docker, Linode, Amazon AWS, and Ansible
 {: .technologies}
 
-#### Conta-Clip - October 2016 - March 2016 and July 2017 - September 2017
+#### Conta-Clip - October 2016 - March 2016
 
 Conta-Clip is an international producer of electrical and electronic connection technology.
 Besides being a manufacturer, Conta-Clip services this technology and sells it online.
@@ -271,7 +282,7 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext
 
 ### Conferences
 
-* Next Build, Eindhoven, the Netherlands, 2016 and 2017
+* Next Build, Eindhoven, the Netherlands, 2016, 2017, and 2018
 * International Conference on Secure Software Integration and Reliability Improvement, Jeju Island, South Korea, 2011
 * International Conference on Software Testing, Verification and Validation, Berlin, Germany, 2011
 * Joint ERCIM Workshop on Software Evolution and International Workshop on Principles of Software Evolution, Antwerp, Belgium, 2010
