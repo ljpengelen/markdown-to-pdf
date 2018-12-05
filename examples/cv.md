@@ -33,6 +33,7 @@ Additionally, he has worked on an SDK for iOS, native iOS applications, cross-pl
 * JUnit
 * Mockito
 * Ruby on Rails
+* Spring Boot
 
 ### Front end
 
