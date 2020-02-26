@@ -8,63 +8,11 @@ Software developer
 ## Profile
 
 Luc is a software developer that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
-After obtaining his PhD at the Eindhoven University of Technology (TU/e), he worked as a Postdoctoral researcher and teacher at the same university before switching to industry.
-As a software developer, he worked on Java, Rails, and Python back ends for a variety of web applications, including a number of self-service portals for customers of credit card resellers and an enterprise service bus.
-Additionally, he has worked on an SDK for iOS, native iOS applications, cross-platform mobile applications, and as a full stack developer on a number of Ruby on Rails applications.
+He is a full-stack developer, focussing on React-based front ends and cross-platform mobile applications, and Java- and Python-based back ends.
+Before switching to software development, he obtaining his PhD at the Eindhoven University of Technology (TU/e) and worked as a Postdoctoral researcher and teacher at the same university.
 
-## Skills
-
-### Programming languages
-
-* C
-* C++
-* Java
-* JavaScript (and CoffeeScript)
-* Objective-C
-* (Object) Pascal
-* PHP
-* Python
-* Ruby
-* Swift
-
-### Back end
-
-* Java EE (JBoss EAP and WebLogic)
-* JUnit
-* Mockito
-* Ruby on Rails
-* Spring Boot
-
-### Front end
-
-* Backbone (and Marionette)
-* CSS and SCSS
-* JavaScript (and CoffeeScript)
-* jQuery
-* Mocha
-* Preact
-* Redux
-* Webpack
-
-### Mobile
-
-* Cocoa Touch
-* Cordova
-* Maji Mobile
-* Objective-C
-* Swift
-
-### System integration
-
-* Apache Camel
-
-### DevOps
-
-* Ansible
-* Jenkins
-* Microsoft Azure
-* Docker
-* Terraform
+His background in academia combined with his practical experience with various programming languages and technologies allows him to reason about the big picture while keeping an eye on the details.
+His experience as a software engineer within various companies combined with his experience as a volunteer within various sports clubs gives him an eye for processes and collaboration within teams, always striving for co-creation and efficiency.
 
 ## Experience
 
@@ -73,7 +21,23 @@ Additionally, he has worked on an SDK for iOS, native iOS applications, cross-pl
 Kabisa is specialized in developing elegant software solutions using technologies such as Ruby on Rails, Java, and Python.
 Luc has worked on the following projects:
 
-#### Signify - September 2017 - Current
+#### Hertek Safety - April 2019 - March 2020
+
+Hertek Safety provides and services systems for fire protection.
+For Hertek, Luc worked in a team of three on a platform that allows the control and inspection of fire panels via a number of web and mobile apps.
+
+React, Redux, Cordova, TypeScript, Karma, Mocha, Sinon, Chai, Java, Vert.x, Spring Boot, Mockito, JUnit, Firebase, PostgreSQL, and Amazon SQS.
+{: .technologies}
+
+#### ASML Analytics - February 2019 - March 2019
+
+ASML is the world-leading supplier of photolitography machines for the semiconductor industries.
+For ASML, Luc worked in a team of three on a proof-of-concept application demonstrating the applicability of modern web technologies within ASML.
+
+React, Redux, TypeScript, Karma, Mocha, Sinon, Chai, Java, Spring Boot, Mockito, and JUnit.
+{: .technologies}
+
+#### Signify - September 2017 - December 2018
 
 Signify is the new company name of Philips Lighting.
 Signify is a world leader in connected LED lighting systems, software, and services.
@@ -266,11 +230,8 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext
 * ISO 26262 Training Course (Intecs)
 * Teaching and Learning in Higher Education (TU/e)
 * The Art of Presenting Science (TU/e)
-* Writing Articles and Abstracts (TUe/)
 * Intercultural Communication (TU/e)
 * Planning and Communication (TU/e)
-* Deutsch als Fremdsprache (University of Innsbruck)
-* Licht und Farbe f&uuml;r Informatiker (University of Innsbruck)
 * Nonverbale Kommunikation (University of Innsbruck)
 * Stress am Arbeitsplatz (University of Innsbruck)
 * Einführung in die Psychologie (University of Innsbruck)
@@ -278,42 +239,17 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext
 
 ### Certifications
 
+* Professional Scrum Master I
 * Oracle Certified Associate - Java SE7 Programmer I
 * Oracle Certified Professional - Java SE7 Programmer II
-
-### Conferences
-
-* Next Build, Eindhoven, the Netherlands, 2016, 2017, and 2018
-* International Conference on Secure Software Integration and Reliability Improvement, Jeju Island, South Korea, 2011
-* International Conference on Software Testing, Verification and Validation, Berlin, Germany, 2011
-* Joint ERCIM Workshop on Software Evolution and International Workshop on Principles of Software Evolution, Antwerp, Belgium, 2010
-* Workshop on Language Descriptions, Tools and Applications, York, United Kingdom, 2009
-* Generative and Transformational Techniques in Software Engineering, Braga, Portugal, 2007
 
 ### Talks and publications
 
 * JSON Web Tokens (Java Meetup, October 2016)
+* Various blog posts on [https://www.theguild.nl/](https://www.theguild.nl/)
 * From Napkin Sketches to Reliable Software (PhD thesis, 2012)
-* Checking Property Preservation of Refining Transformations for Model-Driven Development (Technical report, 2012)
-* MDE Basics with a DSL Focus (Lecture notes, 2012)
-* Extracting Models from ISO 26262 for Reusable Safety Assurance (Paper, 2013)
-* Efficient Property Preservation Checking of Model Refinements (Paper, 2013)
-* Incremental Formal Verification for Model Refining (Paper, 2012)
-* VPDSL: A DSL for Software in the Loop Simulations covering Material Flow (Paper, 2012)
-* Reusable and Correct Endogenous Model Transformations (Paper, 2012)
-* Prototyping the Semantics of a DSL using ASF+SDF: Link to Formal Verification of DSL Models (Paper, 2011)
-* Using a DSL and Fine-grained Model Transformations to Explore the Boundaries of Model Verification (Paper and technical report, 2011)
-* An Exercise in Iterative Domain-specific Language Design (Paper, 2010)
-* The Third Rewrite Engines Competition (Paper, 2010)
-* Integrating Textual and Graphical Modeling Languages (Paper, 2009)
-* Embedded Systems Modeling, Analysis, and Synthesis (Book chapter, 2007)
+* Various scientific talks and publications
 * A BDD-based Prover for mCRL2 (Master's thesis, 2006)
-
-### Workshops
-
-* Elixir and Phoenix workshop (Kabisa, Weert, 2016)
-* Elixir workshop (Kabisa, Weert, 2016)
-* React workshop (Kabisa, Weert, 2016
 
 ## Languages
 
