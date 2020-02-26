@@ -1,8 +1,8 @@
 <div class="contact-information" markdown>
 * Marconilaan 8
 * 6003 DD WEERT
-* Mathildelaan 1A
-* 5611 BD EINDHOVEN
+* Achtseweg Zuid 241C
+* 5651 GW EINDHOVEN
 * Daalwijkdreef 47
 * 1103 AD AMSTERDAM
 * <a href="mailto:info@kabisa.nl">info@kabisa.nl</a>
