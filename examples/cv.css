@@ -96,3 +96,8 @@ td:first-child, th:first-child {
   content: "Technologies used: ";
   font-weight: bold;
 }
+
+a {
+  color: black;
+  text-decoration: underline;
+}
