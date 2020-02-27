@@ -1,13 +1,13 @@
 # Luc Engelen
 
-Software developer
+Software developer and consultant
 {: .job-title}
 
 {!contact-information.md!}
 
 ## Profile
 
-Luc is a software developer that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
+Luc is a software developer and consultant that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
 He is a full-stack developer, focussing on React-based front ends and cross-platform mobile applications, and Java- and Python-based back ends.
 Before switching to software development, he obtaining his PhD at the Eindhoven University of Technology (TU/e) and worked as a Postdoctoral researcher and teacher at the same university.
 
