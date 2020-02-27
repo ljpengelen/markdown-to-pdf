@@ -62,7 +62,7 @@ As a Java developer at Philips, Luc worked on a few of the most mission-critical
 Each micro service is a Spring Boot application, connected to its own PostgreSQL database.
 The micro services communicate with each other and the outside world via REST APIs and RAbbitMQ.
 
-Java, Spring Boot, RabbitMQ, PostgreSQL, JUnit, Maven, and Mockito
+Java, Spring Boot, RabbitMQ, PostgreSQL, JUnit, Maven, and Mockito.
 {: .technologies}
 
 #### Euramax - May 2016 - December 2016
@@ -74,7 +74,7 @@ Euramax uses a number of IT systems in their day-to-day operations.
 To simplify connecting these systems with each other and with external systems of, for example, their suppliers, they were looking for an enterprise service bus.
 Luc extended Flux, an existing Kabisa product, to suit the needs of Euramax and developed a number of flows that solved an immediate problem that Euramax was facing.
 
-Ruby on Rails, CoffeeScript, RSpec, Java, Junit, Maven, MongoDB, Elasticsearch, Docker, Linode, Amazon AWS, and Ansible
+Ruby on Rails, CoffeeScript, RSpec, Java, Junit, Maven, MongoDB, Elasticsearch, Docker, Linode, Amazon AWS, and Ansible.
 {: .technologies}
 
 #### Conta-Clip - October 2016 - March 2016
@@ -86,7 +86,7 @@ In a small team of three developers, Luc worked on a hybrid mobile application f
 The mobile application is used to control remote equipment and obtain feedback about the functioning of this equipment.
 The distinguishing features of this app are communication via both an SMS-based API and a web-based API, and the possibility to update parts of the app on the fly.
 
-Maji Mobile (which includes Apache Cordova, Jasmine, Chai and CoffeeScript), Python, and Flask
+Maji Mobile (which includes Apache Cordova, Jasmine, Chai and CoffeeScript), Python, and Flask.
 {: .technologies}
 
 #### Twin Archer Trading - May 2016 - August 2016
@@ -95,7 +95,7 @@ Twin Archer Trading is a recent start-up that imports a variety of products from
 
 In a small team of three developers, Luc built a business-to-business webshop connected to the product information management system Beeyond. The customer uses Beeyond to manage the products that are offered for sale in the shop. A custom Java application built with Apache Camel is used to synchronize the shop with Beeyond. The shop itself is a Ruby on Rails application.
 
-Ruby on Rails, CoffeeScript, RSpec, Java, JUnit, Maven, Postgres, Beeyond, Linode, Ansible, and Apache Camel
+Ruby on Rails, CoffeeScript, RSpec, Java, JUnit, Maven, Postgres, Beeyond, Linode, Ansible, and Apache Camel.
 {: .technologies}
 
 #### Abacus - May 2016
@@ -105,7 +105,7 @@ They specialize in omnichannel retailing, business intelligence, and product inf
 
 For one of their customers, Abacus was looking for an FTP server that was simple to use. Together with a colleague of Kabisa's managed services department, Luc set up such a server and automated the provisioning.
 
-Ansible, Webmin, Amazon AWS, Linode, and ProFTPD
+Ansible, Webmin, Amazon AWS, Linode, and ProFTPD.
 {: .technologies}
 
 #### Euramax - March 2016 - May 2016
@@ -115,7 +115,7 @@ Their products are applied in many industries, ranging from buildings and interi
 
 Luc built a proof-of-concept application that enables Euramax to import the certificates produced by their suppliers into their ERP system straightforwardly. Each coil of aluminium supplied to Euramax comes with a certificate in the form of a XML or PDF document, which contains data about the product that needs to be processed and stored. To simplify importing this information, the proof-of-concept application transforms all of the formats offered by the suppliers to a single XML format.
 
-Java, JUnit, Maven, XPath, XSLT, and Apache Camel
+Java, JUnit, Maven, XPath, XSLT, and Apache Camel.
 {: .technologies}
 
 ### ISAAC 2014 - 2016
@@ -129,7 +129,7 @@ Ingenico ePayments offers a platform for online payment processing.
 
 In a team of 10 to 20 software developers, Luc worked as a back-end developer on a portal that simplifies the boarding process for new merchants.
 
-Java, Java EE, WebLogic, Maven, and JUnit
+Java, Java EE, WebLogic, Maven, and JUnit.
 {: .technologies}
 
 #### Vogel's - October 2015
@@ -138,7 +138,7 @@ Vogel's is known globally for its range of mounting solutions for LCD, plasma an
 
 Luc created a proof-of-concept iOS app that can be used to control a wall mount for a TV. The mobile device communicates with the wall mount via Bluetooth.
 
-Swift, Core Bluetooth, and Cocoa Touch
+Swift, Core Bluetooth, and Cocoa Touch.
 {: .technologies}
 
 #### Yelder - September 2015
@@ -148,7 +148,7 @@ Yelder is a financial institution that offers various forms of personal loans su
 To simplify the process of registering for a personal loan for the purchase of a car, Luc worked on a web app in a team of three back-end developers and two front-end developers.
 The app makes it possible to easily and securely upload personal documents.
 
-Java, Java EE, JUnit, Maven, and JBoss EAP
+Java, Java EE, JUnit, Maven, and JBoss EAP.
 {: .technologies}
 
 #### LaSer UK - April 2015 - December 2015
@@ -185,7 +185,7 @@ Ingenico ePayments offers a platform for online payment processing.
 
 Luc worked as an iOS developer on a native SDK that helps iOS developers to connect their apps to the Ingenico ePayments platform. In addition, he created a demo application to illustrate the use of the SDK and wrote its technical documentation.
 
-Objective-C, Cocoa Touch, AFNetworking, and SVProgressHUD
+Objective-C, Cocoa Touch, AFNetworking, and SVProgressHUD.
 {: .technologies}
 
 ### Eindhoven University of Technology (TU/e) 2006 - 2014
@@ -199,21 +199,21 @@ As an employee of the Eindhoven University of Technology, Luc had the following 
 
 As a postdoctoral researcher and teacher, Luc performed research in the field of safety-critical software and assisted in teaching a number of courses for BSc students. In addition, he co-supervised a PhD student.
 
-Python, jQuery, JavaScript, Epsilon, and Eugenia
+Python, jQuery, JavaScript, Epsilon, and Eugenia.
 {: .technologies}
 
 #### PhD Student - Software Engineering and Technology Group - 2008 - 2012
 
 As a PhD student, Luc performed research in the field of model-driven software engineering and domain-specific languages. Additionally, he assisted in teaching a number of courses for MSc and post-MSc students.
 
-mCRL2, POOSL, Promela, ASF+SDF, ATL, Eclipse Modeling Framework, Xpand, Xtend, and Xtext
+mCRL2, POOSL, Promela, ASF+SDF, ATL, Eclipse Modeling Framework, Xpand, Xtend, and Xtext.
 {: .technologies}
 
 #### Junior Researcher - TU/e and ASML - 2006 - 2008
 
 In a joint project between the TU/e and ASML, Luc investigated the transformation of UML models to a formal modeling language capable of performance analysis.
 
-POOSL, ASF+SDF, Xpand, Xtend, and Xtext
+POOSL, ASF+SDF, Xpand, Xtend, and Xtext.
 {: .technologies}
 
 ## Education, Certifications, Training Courses
