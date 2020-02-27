@@ -127,7 +127,7 @@ ISAAC creates custom web and mobile applications for a number of international c
 GlobalCollect was a global payment-service provider that is now part of Ingenico Group's Ingenico ePayments.
 Ingenico ePayments offers a platform for online payment processing.
 
-In a team of 10 to 20 software developers, Luc worked as a back-end developer on a portal that simplifies the boarding process for new merchants.
+In a team of about 10 software developers, Luc worked as a back-end developer on a portal that simplifies the boarding process for new merchants.
 
 Java, Java EE, WebLogic, Maven, and JUnit.
 {: .technologies}
@@ -151,31 +151,17 @@ The app makes it possible to easily and securely upload personal documents.
 Java, Java EE, JUnit, Maven, and JBoss EAP.
 {: .technologies}
 
-#### LaSer UK - April 2015 - December 2015
-
-LaSer UK is a financial institution that offers branded credit cards and other forms of personal loans.
-
-In a team of about 20 software developers, designers, and project managers, Luc worked on a new self-service portal that helped customers to manage their in-store credit.
-
-Java, Java EE, JUnit, Maven, JBoss EAP, and JBoss BRMS
-{: .technologies}
-
-#### LaSer Netherlands and LaSer Nordic - December 2014 - February 2015
+#### LaSer Netherlands, LaSer UK, and LaSer Nordic - August 2014 - December 2015
 
 LaSer is an international financial organization that offers personal loans, for example in the form of branded credit cards.
 
-For a number of existing self-service portals for customers with branded credit cards, Luc performed maintenance and solved production incidents.
-
-Java, Java EE, JUnit, Maven, and JBoss EAP
-{: .technologies}
-
-#### LaSer UK - August 2014 - Februari 2015
-
-LaSer UK is a financial institution that offers branded credit cards and other forms of personal loans.
+In a team of about 20 software developers, designers, and project managers, Luc worked on a new self-service portal for LaSer UK that helped customers to manage their in-store credit.
 
 In a team of around 10 software developers, Luc extended an existing self-service portal for customers with branded credit cards issued by LaSer UK.
 
-Java, Java EE, JUnit, Maven, and JBoss EAP
+For a number of existing self-service portals for customers with branded credit cards, Luc performed maintenance and solved production incidents.
+
+Java, Java EE, JUnit, Maven, JBoss EAP, and JBoss BRMS.
 {: .technologies}
 
 #### GlobalCollect - March 2014 - June 2014
