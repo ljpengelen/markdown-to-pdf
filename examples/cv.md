@@ -21,6 +21,18 @@ His experience as a software engineer within various companies combined with his
 Kabisa is specialized in developing elegant software solutions using technologies such as Ruby on Rails, Java, and Python.
 Luc has worked on the following projects:
 
+#### Engie - June 2020 - Current
+
+Engie is a French multinational electric utility company, which is currently actively developing its Smart O&M platform.
+Smart O&M is the software that takes care of their clients’ building assets in a fully transparent and efficient way.
+It predicts and tracks breakdowns in the buildings, optimizes operators’ rounds and monitors and evaluates contractual commitments.
+
+For Engie, Luc works as a full-stack developer in a team of seven on a handful of back-end services and two front-end applications.
+In total, the back end of Engie's platform consists of around 50 microservices that communicate asynchronously via ActiveMQ and Amazon SQS, and synchronously via REST and GraphQL.
+
+Angular, NgRx, Cypress, Jest, TypeScript, Java, Spring Boot, JBoss Wildfly, Amazon SQS, ActiveMQ, and MongoDB.
+{: .technologies}
+
 #### Hertek Safety - April 2019 - March 2020
 
 Hertek Safety provides and services systems for fire protection.
@@ -210,19 +222,6 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext.
 * MSc (ir.), Eindhoven University of Technology (TU/e)
 * VWO, Jeanne D'Arc College Maastricht
 
-### Courses
-
-* The World's Best Intro to TDD (J. B. Rainsberger)
-* ISO 26262 Training Course (Intecs)
-* Teaching and Learning in Higher Education (TU/e)
-* The Art of Presenting Science (TU/e)
-* Intercultural Communication (TU/e)
-* Planning and Communication (TU/e)
-* Nonverbale Kommunikation (University of Innsbruck)
-* Stress am Arbeitsplatz (University of Innsbruck)
-* Einführung in die Psychologie (University of Innsbruck)
-* Entwicklungspsychologie des Kindesalters (University of Innsbruck)
-
 ### Certifications
 
 * Professional Scrum Master I
@@ -231,8 +230,21 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext.
 
 ### Talks and publications
 
-* JSON Web Tokens (Java Meetup, October 2016)
-* Various blog posts on [https://www.theguild.nl/](https://www.theguild.nl/)
+* Various Meetups:
+    * Python web development (Meetup, June 2018)
+    * Battle of the Java Microframeworks (Meetup, February 2017)
+    * JSON Web Tokens (Java Meetup, October 2016)
+* Various blog posts on [https://www.theguild.nl/](https://www.theguild.nl/):
+    * [Browser Beats I: Synthesizing a kick drum](https://www.theguild.nl/browser-beats-i-synthesizing-a-kick-drum)
+    * [Browser Beats II: Synthesizing a snare drum and a hihat](https://www.theguild.nl/browser-beats-ii-synthesizing-a-snare-drum-and-a-hi-hat)
+    * [Where to put JSON web tokens in 2019](https://www.theguild.nl/where-to-put-json-web-tokens-in-2019)
+    * [Running multiple Docker containers in parallel with Jenkins](https://www.theguild.nl/running-multiple-docker-containers-in-parallel-with-jenkins)
+    * [Reactive Java using the Vert.x toolkit](https://www.theguild.nl/reactive-java-using-the-vert-x-toolkit)
+    * [Immutable objects in Python](https://www.theguild.nl/immutable-objects-in-python)
+    * [Sending data across the world: JSON vs protocol buffers and REST vs gRPC](https://www.theguild.nl/sending-data-to-the-other-side-of-the-world-json-protocol-buffers-rest-grpc)
+    * [Jenkinsfiles for beginners and masochists](https://www.theguild.nl/jenkinsfiles-for-beginners-and-masochists)
+    * [Setting up Dokku on Azure with Terraform and Ansible: a guided tour](https://www.theguild.nl/setting-up-dokku-on-azure-with-terraform-and-ansible-a-guided-tour)
+    * [Good-looking PDFs with CSS for paged media and markdown](https://www.theguild.nl/good-looking-pdfs-with-css-for-paged-media-and-markdown)
 * From Napkin Sketches to Reliable Software (PhD thesis, 2012)
 * Various scientific talks and publications
 * A BDD-based Prover for mCRL2 (Master's thesis, 2006)
