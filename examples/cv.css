@@ -20,7 +20,7 @@
 }
 
 @page cover {
-  @bottom-center: {
+  @bottom-center {
     content: "";
   }
 
