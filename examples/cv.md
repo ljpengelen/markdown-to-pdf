@@ -3,7 +3,7 @@
 Software developer and consultant
 {: .job-title}
 
-{!contact-information.md!}
+<!-- {!contact-information.md!} -->
 
 ## Profile
 

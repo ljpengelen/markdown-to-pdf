@@ -11,12 +11,12 @@
     content: string(heading-name) " - " string(heading-title);
   }
 
-  @top-right {
+  /* @top-right {
     background: url(kabisa-logo-two-color.svg) no-repeat bottom;
     background-size: 5cm;
     content: "";
     width: 5cm;
-  }
+  } */
 }
 
 @page cover {
