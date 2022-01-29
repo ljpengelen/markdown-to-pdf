@@ -1,14 +1,14 @@
 # Luc Engelen
 
-Software developer and consultant
+Senior full-stack developer and aspiring architect
 {: .job-title}
 
 <!-- {!contact-information.md!} -->
 
 ## Profile
 
-Luc is a software developer and consultant that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
-He is a full-stack developer, focussing on React-based front ends and cross-platform mobile applications, and Java- and Python-based back ends.
+Luc is a senior software developer that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
+He is a full-stack developer, focussing on React-based front ends, cross-platform mobile applications, and Java-based back ends.
 Before switching to software development, he obtaining his PhD at the Eindhoven University of Technology (TU/e) and worked as a Postdoctoral researcher and teacher at the same university.
 
 His background in academia combined with his practical experience with various programming languages and technologies allows him to reason about the big picture while keeping an eye on the details.
@@ -16,12 +16,25 @@ His experience as a software engineer within various companies combined with his
 
 ## Experience
 
-### Kabisa 2016 - Current
+### APG - 2021 - Current
+
+Currently, Luc works as software developer and scrum master at APG.
+APG is both a pension investment company and a pension administration company.
+It is a direct subsidiary of ABP, the largest pension fund in the Netherlands.
+
+As a Java-developer, Luc works on the automation of business processes.
+These processes are part of the *Generic Pension System (GPS)*, one of the largest software applications at APG.
+Additionally, his team is responsible for the maintenance of the front-end of GPS, implemented in Apache Flex.
+
+Java, Spring, Hibernate, Oracle DB, Activiti, Apache Flex, and Clojure.
+{: .technologies}
+
+### Kabisa - 2016 - 2021
 
 Kabisa is specialized in developing elegant software solutions using technologies such as Ruby on Rails, Java, and Python.
 Luc has worked on the following projects:
 
-#### Engie - June 2020 - Current
+#### Engie - June 2020 - Februari 2021
 
 Engie is a French multinational electric utility company, which is currently actively developing its Smart O&M platform.
 Smart O&M is the software that takes care of their clients’ building assets in a fully transparent and efficient way.
@@ -186,7 +199,7 @@ Luc worked as an iOS developer on a native SDK that helps iOS developers to conn
 Objective-C, Cocoa Touch, AFNetworking, and SVProgressHUD.
 {: .technologies}
 
-### Eindhoven University of Technology (TU/e) 2006 - 2014
+### Eindhoven University of Technology (TU/e) - 2006 - 2014
 
 The Eindhoven University of Technology (TU/e) is a research university specializing in engineering science and technology.
 Its education, research, and knowledge valorization contribute to solving the major societal issues and boosting prosperity and welfare, as well as the development of technological innovation in cooperation with industry.
@@ -227,10 +240,11 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext.
 * Professional Scrum Master I
 * Oracle Certified Associate - Java SE7 Programmer I
 * Oracle Certified Professional - Java SE7 Programmer II
+* Certified SAFe 5 Scrum Master
 
 ### Talks and publications
 
-* Various Meetups:
+* Talks at various Meetups:
     * Python web development (Meetup, June 2018)
     * Battle of the Java Microframeworks (Meetup, February 2017)
     * JSON Web Tokens (Java Meetup, October 2016)
@@ -255,5 +269,5 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext.
 |-------------|------------|------------|
 | **Dutch**   | Fluent     | Fluent     |
 | **English** | Fluent     | Fluent     |
-| **German**  | Sufficient | Sufficient |
+| **German**  | Basic      | Basic      |
 | **French**  | Basic      | Basic      |
