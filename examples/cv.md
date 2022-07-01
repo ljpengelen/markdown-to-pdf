@@ -1,13 +1,13 @@
 # Luc Engelen
 
-Senior full-stack developer and aspiring architect
+Senior full-stack developer and scrum master
 {: .job-title}
 
 <!-- {!contact-information.md!} -->
 
 ## Profile
 
-Luc is a senior software developer that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
+Luc is a senior software developer and scrum master that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
 He is a full-stack developer, focussing on React-based front ends, cross-platform mobile applications, and Java-based back ends.
 Before switching to software development, he obtaining his PhD at the Eindhoven University of Technology (TU/e) and worked as a Postdoctoral researcher and teacher at the same university.
 
@@ -244,7 +244,8 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext.
 
 ### Talks and publications
 
-* Talks at various Meetups:
+* Talks at various Meetups and conferences:
+    * Clojure for beginners (DevConf, March 2022)
     * Python web development (Meetup, June 2018)
     * Battle of the Java Microframeworks (Meetup, February 2017)
     * JSON Web Tokens (Java Meetup, October 2016)
