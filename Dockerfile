@@ -14,6 +14,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 
 RUN pip3 install --no-cache \
+    Pillow==6.2.2 \
     click \
     markdown \
     markdown-include \
