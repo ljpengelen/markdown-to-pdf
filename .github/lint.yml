@@ -1,0 +1,14 @@
+name: Lint
+run-name: Linting ${{ github.ref_name }} for ${{ github.triggering_actor }}
+on: [ push ]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          cache: pipenv
+      - run: pipenv install --dev
+      - run: pylint *.py
+      - run: black --check .
