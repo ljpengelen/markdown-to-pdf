@@ -1,6 +1,6 @@
 name: Lint
 run-name: Linting ${{ github.ref_name }} for ${{ github.triggering_actor }}
-on: [ push ]
+on: [ push, workflow_dispatch ]
 jobs:
   lint:
     runs-on: ubuntu-latest
