@@ -10,5 +10,6 @@ jobs:
         with:
           cache: pipenv
       - run: pip install pipenv
+      - run: pipenv install --dev
       - run: pipenv run pylint *.py
       - run: pipenv run black --check .
