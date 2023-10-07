@@ -14,12 +14,12 @@ ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 
 RUN pip3 install --no-cache \
-    Pillow==9.0.1 \
-    click==7.1.1 \
-    markdown==3.2.1 \
-    markdown-include==0.5.1 \
-    weasyprint==51 \
-    watchdog==0.10.2
+    Pillow==10.0.1 \
+    click==8.1.7 \
+    markdown==3.5 \
+    markdown-include==0.8.1 \
+    weasyprint==60.1 \
+    watchdog==3.0.0
 
 RUN mkdir /app
 
