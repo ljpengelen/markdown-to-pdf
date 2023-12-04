@@ -39,3 +39,9 @@ The HTML document is generated because it's convenient to be able to play around
 ## CSS for print
 
 If you want to design your own documents, take a look at [designing for print with CSS](https://www.smashingmagazine.com/2015/01/designing-for-print-with-css/) by Rachel Andrew.
+
+## Docker
+
+If you don't want to install Python and the rest of the tools directly, you can also run the conversion script from within a Docker container.
+First, execute `docker build -t md2pdf .` to build an image.
+Afterwards, execute `docker run -v $(pwd)/examples:/app/examples md2pdf python3 md2pdf.py convert examples/cv.md examples/cv.css` to generate a PDF version of the example CV.

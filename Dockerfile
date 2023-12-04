@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:jammy
 
 RUN apt-get update \
   && apt-get -y install \
@@ -14,11 +14,12 @@ ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 
 RUN pip3 install --no-cache \
-    click \
-    markdown \
-    markdown-include \
-    weasyprint \
-    watchdog
+    Pillow==10.0.1 \
+    click==8.1.7 \
+    markdown==3.5 \
+    markdown-include==0.8.1 \
+    weasyprint==60.1 \
+    watchdog==3.0.0
 
 RUN mkdir /app
 

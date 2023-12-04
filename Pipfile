@@ -4,18 +4,18 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-black = "*"
-pylint = "*"
+black = "23.9.1"
+pylint = "3.0.1"
 
 [packages]
-click = "*"
-markdown = "*"
-markdown-include = "*"
-weasyprint = "*"
-watchdog = "*"
+click = "8.1.7"
+markdown = "3.5"
+markdown-include = "0.8.1"
+weasyprint = "60.1"
+watchdog = "3.0.0"
 
 [requires]
-python_version = "3.7"
+python_version = "3.12"
 
 [pipenv]
-allow_prereleases = true
+allow_prereleases = false
