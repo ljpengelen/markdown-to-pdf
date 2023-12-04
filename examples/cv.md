@@ -16,9 +16,17 @@ His experience as a software engineer within various companies combined with his
 
 ## Experience
 
-### APG - 2021 - Current
+### cofx - 2022 - present
 
-Currently, Luc works as software developer and scrum master at APG.
+In december 2022, Luc started the company cofx to start working as a freelance full-stack software developer.
+For his first project, he returned to Engie's Smart O&M project as a backend developer.
+
+Java, Spring Boot, Micronaut, Amazon SQS, Amazon Kinesis, and MongoDB.
+{: .technologies}
+
+### APG - 2021 - 2022
+
+At APG, Luc worked as software developer and scrum master.
 APG is both a pension investment company and a pension administration company.
 It is a direct subsidiary of ABP, the largest pension fund in the Netherlands.
 
@@ -249,7 +257,10 @@ POOSL, ASF+SDF, Xpand, Xtend, and Xtext.
     * Python web development (Meetup, June 2018)
     * Battle of the Java Microframeworks (Meetup, February 2017)
     * JSON Web Tokens (Java Meetup, October 2016)
-* Various blog posts on [https://www.theguild.nl/](https://www.theguild.nl/):
+* Various blog posts on [https://blog.cofx.nl/](https://blog.confx.nl/) and [https://www.theguild.nl/](https://www.theguild.nl/):
+    * [Experimenting with MongoDB index creation and Spring Boot](https://blog.cofx.nl/mongodb-indices-spring.html)
+    * [Dependency injection and loggers in Clojure](https://blog.cofx.nl/dependency-injection-and-loggers-clojure.html)
+    * [Dependency injection and protocols in Clojure](https://blog.cofx.nl/dependency-injection-and-protocols-in-clojure.html)
     * [Browser Beats I: Synthesizing a kick drum](https://www.theguild.nl/browser-beats-i-synthesizing-a-kick-drum)
     * [Browser Beats II: Synthesizing a snare drum and a hihat](https://www.theguild.nl/browser-beats-ii-synthesizing-a-snare-drum-and-a-hi-hat)
     * [Where to put JSON web tokens in 2019](https://www.theguild.nl/where-to-put-json-web-tokens-in-2019)
