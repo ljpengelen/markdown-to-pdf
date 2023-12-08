@@ -2,7 +2,7 @@
             <html>
               <head>
                 <style>@page {
-  margin-top: 3cm;
+  margin-top: 2cm;
   size: A4;
 
   @bottom-right {
@@ -13,13 +13,6 @@
     color: #808080;
     content: string(heading-name) " - " string(heading-title);
   }
-
-  /* @top-right {
-    background: url(kabisa-logo-two-color.svg) no-repeat bottom;
-    background-size: 5cm;
-    content: "";
-    width: 5cm;
-  } */
 }
 
 @page cover {
@@ -34,7 +27,7 @@
 
 html {
   font-family: system-ui;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
@@ -43,17 +36,18 @@ h1 {
   page: cover;
   string-set: heading-name content();
   margin-bottom: 0;
-  margin-top: 50%;
+  margin-top: 20rem;
 }
 
 .job-title {
   font-style: italic;
+  margin-bottom: 5rem;
   margin-top: 0;
   string-set: heading-title content();
 }
 
 .contact-information {
-  font-size: 0.75rem;
+  font-size: 1rem;
   padding: 1rem;
   position: absolute;
   right: 0;
@@ -65,8 +59,11 @@ h1 {
   list-style-type: none;
 }
 
-h2 {
+.new-page {
   page-break-before: always;
+}
+
+h2 {
   string-set: heading content();
 }
 
@@ -96,7 +93,27 @@ td:first-child, th:first-child {
 }
 
 .technologies::before {
-  content: "Technologies used: ";
+  content: "Main technologies: ";
+  font-weight: bold;
+}
+
+.frontend-technologies::before {
+  content: "Frontend: ";
+  font-weight: bold;
+}
+
+.backend-technologies::before {
+  content: "Backend: ";
+  font-weight: bold;
+}
+
+.mobile-technologies::before {
+  content: "Mobile: ";
+  font-weight: bold;
+}
+
+.operations-technologies:before {
+  content: "Operations: ";
   font-weight: bold;
 }
 
@@ -106,58 +123,72 @@ a {
 }
 </style>
               </head>
-              <body><h1>Luc Engelen</h1>
+              <body><div class="contact-information">
+<ul>
+<li>Hogeweg 16</li>
+<li>6367 BD Voerendaal</li>
+<li><a href="mailto:luc@cofx.nl">luc@cofx.nl</a></li>
+<li><a href="https://www.cofx.nl">www.cofx.nl</a></li>
+<li>+31 6 19874928</li>
+</ul>
+</div>
+<h1>Luc Engelen</h1>
 <p class="job-title">Senior full-stack developer and scrum master</p>
-<!-- <div class="contact-information" markdown>
-* Marconilaan 8
-* 6003 DD WEERT
-* Achtseweg Zuid 241C
-* 5651 GW EINDHOVEN
-* Daalwijkdreef 47
-* 1103 AD AMSTERDAM
-* <a href="mailto:info@kabisa.nl">info@kabisa.nl</a>
-* <a href="https://www.kabisa.nl">www.kabisa.nl</a>
-* +31 495 430798
-</div> -->
-
-<h2>Profile</h2>
 <p>Luc is a senior software developer and scrum master that combines a solid theoretical foundation in computer science with practical experience in developing web and mobile applications.
 He is a full-stack developer, focussing on React-based front ends, cross-platform mobile applications, and Java-based back ends.
 Before switching to software development, he obtaining his PhD at the Eindhoven University of Technology (TU/e) and worked as a Postdoctoral researcher and teacher at the same university.</p>
-<p>His background in academia combined with his practical experience with various programming languages and technologies allows him to reason about the big picture while keeping an eye on the details.
-His experience as a software engineer within various companies combined with his experience as a volunteer within various sports clubs gives him an eye for processes and collaboration within teams, always striving for co-creation and efficiency.</p>
-<h2>Experience</h2>
+<p>His background in academia combined with his practical experience with a range of programming languages and technologies allows him to reason about the big picture while keeping an eye on the details.
+His experience as a software engineer within various companies combined with his experience as a volunteer within various sports clubs gives him an eye for processes and collaboration within teams.</p>
+<h2 class="new-page">Employment history</h2>
 <h3>cofx - 2022 - present</h3>
-<p>In december 2022, Luc started the company cofx to start working as a freelance full-stack software developer.
+<p>In december 2022, Luc started working as a freelance full-stack software developer under the company name <em>cofx</em>.
 For his first project, he returned to Engie's Smart O&amp;M project as a backend developer.</p>
-<p class="technologies">Java, Spring Boot, Micronaut, Amazon SQS, Amazon Kinesis, and MongoDB.</p>
 <h3>APG - 2021 - 2022</h3>
 <p>At APG, Luc worked as software developer and scrum master.
 APG is both a pension investment company and a pension administration company.
 It is a direct subsidiary of ABP, the largest pension fund in the Netherlands.</p>
-<p>As a Java-developer, Luc works on the automation of business processes.
+<p>As a Java-developer, Luc worked on the automation of business processes.
 These processes are part of the <em>Generic Pension System (GPS)</em>, one of the largest software applications at APG.
-Additionally, his team is responsible for the maintenance of the front-end of GPS, implemented in Apache Flex.</p>
+Additionally, his team was responsible for the maintenance of the front-end of GPS, implemented in Apache Flex.</p>
 <p class="technologies">Java, Spring, Hibernate, Oracle DB, Activiti, Apache Flex, and Clojure.</p>
 <h3>Kabisa - 2016 - 2021</h3>
 <p>Kabisa is specialized in developing elegant software solutions using technologies such as Ruby on Rails, Java, and Python.
-Luc has worked on the following projects:</p>
-<h4>Engie - June 2020 - Februari 2021</h4>
+Depending on the project and client, Luc worked as backend developer, frontend developer, (hybrid) mobile developer, or a combination of these roles.</p>
+<p class="backend-technologies">Java, Python, Ruby, Spring Boot, Vert.x, Flask, Falcon, Ruby on Rails, RabbitMQ, ActiveMQ, Amazon SQS, Amazon Kinesis, Apache Camel, Firebase, MongoDB, PostgreSQL, JUnit, Mockito, Maven, and Gradle.</p>
+<p class="frontend-technologies">JavaScript, TypeScript, React, Redux, Karma, Mocha, Sinon, Chai, Angular, NgRx, Cypress, and Jest.</p>
+<p class="mobile-technologies">Apache Cordova in combination with React and previously Backbone.js.</p>
+<p class="operations-technologies">Docker, Linode, Amazon AWS, Jenkins, Ansible, and Terraform.</p>
+<h3>ISAAC - 2014 - 2016</h3>
+<p>ISAAC creates custom web and mobile applications for a number of international customers, often using open-source software as a foundation.
+Luc worked as iOS developer and Java developer at ISAAC.</p>
+<p class="technologies">Objective-C, Swift, Java, Java EE, WebLogic, JBoss EAP, Maven, and JUnit.</p>
+<h3>Postdoc and Teacher - Laboratory for Quality Software (TU/e) - <br> 2012 - 2014</h3>
+<p>As a postdoctoral researcher and teacher, Luc performed research in the field of safety-critical software and assisted in teaching a number of courses for BSc students. In addition, he co-supervised a PhD student.</p>
+<h3>PhD Student - Software Engineering and Technology Group (TU/e) - 2008 - 2012</h3>
+<p>As a PhD student, Luc performed research in the field of model-driven software engineering and domain-specific languages. Additionally, he assisted in teaching a number of courses for MSc and post-MSc students.</p>
+<h3>Junior Researcher - TU/e and ASML - 2006 - 2008</h3>
+<p>In a joint project between the TU/e and ASML, Luc investigated the transformation of UML models to a formal modeling language capable of performance analysis.</p>
+<h2 class="new-page">Notable projects</h2>
+<h3>Smart O&amp;M - Engie - 2020 - 2023</h3>
 <p>Engie is a French multinational electric utility company, which is currently actively developing its Smart O&amp;M platform.
 Smart O&amp;M is the software that takes care of their clients’ building assets in a fully transparent and efficient way.
 It predicts and tracks breakdowns in the buildings, optimizes operators’ rounds and monitors and evaluates contractual commitments.</p>
-<p>For Engie, Luc works as a full-stack developer in a team of seven on a handful of back-end services and two front-end applications.
-In total, the back end of Engie's platform consists of around 50 microservices that communicate asynchronously via ActiveMQ and Amazon SQS, and synchronously via REST and GraphQL.</p>
-<p class="technologies">Angular, NgRx, Cypress, Jest, TypeScript, Java, Spring Boot, JBoss Wildfly, Amazon SQS, ActiveMQ, and MongoDB.</p>
-<h4>Hertek Safety - April 2019 - March 2020</h4>
+<p>For Engie, Luc worked as a full-stack developer in a team of seven on a handful of back-end services and two front-end applications.
+In total, the back end of Engie's platform consists of around 50 microservices that communicate asynchronously via ActiveMQ and Amazon SQS, and synchronously via REST.</p>
+<p class="technologies">Java, Spring Boot, Micronaut, Amazon SQS, Amazon Kinesis, MongoDB, Angular, NgRx, Cypress, Jest, and TypeScript.</p>
+<h3>Proof-of-concept applications - APG - 2021-2022</h3>
+<p>To prepare for upcoming changes in legislation, APG wanted to replace part of its pension administration with an external application created by Festina Finance.
+To demonstrate the possibilities of the new system and its integration with existing software, Luc created a number of proof-of-concept applications.</p>
+<p class="technologies">Clojure, ClojureScript, Ring, Reitit, HugSQL, next.jdbc, and re-frame.</p>
+<h3>Hertek Connect - Hertek - 2019 - 2020</h3>
 <p>Hertek Safety provides and services systems for fire protection.
 For Hertek, Luc worked in a team of three on a platform that allows the control and inspection of fire panels via a number of web and mobile apps.</p>
 <p class="technologies">React, Redux, Cordova, TypeScript, Karma, Mocha, Sinon, Chai, Java, Vert.x, Spring Boot, Mockito, JUnit, Firebase, PostgreSQL, and Amazon SQS.</p>
-<h4>ASML Analytics - February 2019 - March 2019</h4>
+<h3>Analytics - ASML - 2019</h3>
 <p>ASML is the world-leading supplier of photolitography machines for the semiconductor industries.
 For ASML, Luc worked in a team of three on a proof-of-concept application demonstrating the applicability of modern web technologies within ASML.</p>
 <p class="technologies">React, Redux, TypeScript, Karma, Mocha, Sinon, Chai, Java, Spring Boot, Mockito, and JUnit.</p>
-<h4>Signify - September 2017 - December 2018</h4>
+<h3>Map toolkit - Signify - 2017 - 2028</h3>
 <p>Signify is the new company name of Philips Lighting.
 Signify is a world leader in connected LED lighting systems, software, and services.
 Their innovations unlock the extraordinary potential of light to improve the quality of people's lives and to work towards a sustainable future.</p>
@@ -167,97 +198,52 @@ The app produces ready-to-use maps in a proprietary binary format for Signify's 
 <p>Additionally, Luc and a colleague created a cross-platform mobile application for the Light+Building fair in Frankfurt.
 This app was used to demonstrate how indoor navigation could assist retail staff during their day-to-day activities.</p>
 <p class="technologies">Python, Falcon, Pytest, OpenCV, Preact, Redux, Cordova, Webpack, ES6, HTML5 Canvas, Karma, Mocha, Sinon, Chai, Ansible, Terraform, and Microsoft Azure.</p>
-<h4>Philips - Januari 2017 - September 2017</h4>
+<h3>Mooncore - Philips - 2017</h3>
 <p>Philips is one of the largest electronics companies in the world.
 Its health watch empowers you to live a healthier life by tracking heart rate and other metrics of your cardio condition, as well as activity, sleep and more.</p>
 <p>As a Java developer at Philips, Luc worked on a few of the most mission-critical micro services that power the mobile apps for the Philips health watch.
 Each micro service is a Spring Boot application, connected to its own PostgreSQL database.
 The micro services communicate with each other and the outside world via REST APIs and RAbbitMQ.</p>
 <p class="technologies">Java, Spring Boot, RabbitMQ, PostgreSQL, JUnit, Maven, and Mockito.</p>
-<h4>Euramax - May 2016 - December 2016</h4>
+<h3>ESB - Euramax - 2016</h3>
 <p>Euramax coated products is a world-wide supplier of premium coil coated aluminium.
 Their products are applied in many industries, ranging from buildings and interiors to transportation- and recreational vehicles.</p>
 <p>Euramax uses a number of IT systems in their day-to-day operations.
 To simplify connecting these systems with each other and with external systems of, for example, their suppliers, they were looking for an enterprise service bus.
 Luc extended Flux, an existing Kabisa product, to suit the needs of Euramax and developed a number of flows that solved an immediate problem that Euramax was facing.</p>
 <p class="technologies">Ruby on Rails, CoffeeScript, RSpec, Java, Junit, Maven, MongoDB, Elasticsearch, Docker, Linode, Amazon AWS, and Ansible.</p>
-<h4>Conta-Clip - October 2016 - March 2016</h4>
+<h3>GSM-PRO - Conta-Clip - 2016</h3>
 <p>Conta-Clip is an international producer of electrical and electronic connection technology.
 Besides being a manufacturer, Conta-Clip services this technology and sells it online.</p>
 <p>In a small team of three developers, Luc worked on a hybrid mobile application for Conta-Clip.
 The mobile application is used to control remote equipment and obtain feedback about the functioning of this equipment.
 The distinguishing features of this app are communication via both an SMS-based API and a web-based API, and the possibility to update parts of the app on the fly.</p>
 <p class="technologies">Maji Mobile (which includes Apache Cordova, Jasmine, Chai and CoffeeScript), Python, and Flask.</p>
-<h4>Twin Archer Trading - May 2016 - August 2016</h4>
+<h3>Web Shop - Twin Archer Trading - 2016</h3>
 <p>Twin Archer Trading is a recent start-up that imports a variety of products from China.</p>
-<p>In a small team of three developers, Luc built a business-to-business webshop connected to the product information management system Beeyond. The customer uses Beeyond to manage the products that are offered for sale in the shop. A custom Java application built with Apache Camel is used to synchronize the shop with Beeyond. The shop itself is a Ruby on Rails application.</p>
+<p>In a small team of three developers, Luc built a business-to-business web shop connected to the product information management system Beeyond.
+The customer uses Beeyond to manage the products that are offered for sale in the shop. A custom Java application built with Apache Camel is used to synchronize the shop with Beeyond.
+The shop itself is a Ruby on Rails application.</p>
 <p class="technologies">Ruby on Rails, CoffeeScript, RSpec, Java, JUnit, Maven, Postgres, Beeyond, Linode, Ansible, and Apache Camel.</p>
-<h4>Abacus - May 2016</h4>
-<p>Abacus is a supplier of hardware and software for (online) retailers.
-They specialize in omnichannel retailing, business intelligence, and product information management.</p>
-<p>For one of their customers, Abacus was looking for an FTP server that was simple to use. Together with a colleague of Kabisa's managed services department, Luc set up such a server and automated the provisioning.</p>
-<p class="technologies">Ansible, Webmin, Amazon AWS, Linode, and ProFTPD.</p>
-<h4>Euramax - March 2016 - May 2016</h4>
-<p>Euramax coated products is a world-wide supplier of premium coil coated aluminium.
-Their products are applied in many industries, ranging from buildings and interiors to transportation- and recreational vehicles.</p>
-<p>Luc built a proof-of-concept application that enables Euramax to import the certificates produced by their suppliers into their ERP system straightforwardly. Each coil of aluminium supplied to Euramax comes with a certificate in the form of a XML or PDF document, which contains data about the product that needs to be processed and stored. To simplify importing this information, the proof-of-concept application transforms all of the formats offered by the suppliers to a single XML format.</p>
-<p class="technologies">Java, JUnit, Maven, XPath, XSLT, and Apache Camel.</p>
-<h3>ISAAC 2014 - 2016</h3>
-<p>ISAAC creates custom web and mobile applications for a number of international customers, often using open-source software as a foundation.</p>
-<h4>GlobalCollect - October 2016 - February 2016</h4>
-<p>GlobalCollect was a global payment-service provider that is now part of Ingenico Group's Ingenico ePayments.
-Ingenico ePayments offers a platform for online payment processing.</p>
-<p>In a team of about 10 software developers, Luc worked as a back-end developer on a portal that simplifies the boarding process for new merchants.</p>
-<p class="technologies">Java, Java EE, WebLogic, Maven, and JUnit.</p>
-<h4>Vogel's - October 2015</h4>
-<p>Vogel's is known globally for its range of mounting solutions for LCD, plasma and LED screens, audiovisual equipment, and tablets for different rooms at home.</p>
-<p>Luc created a proof-of-concept iOS app that can be used to control a wall mount for a TV. The mobile device communicates with the wall mount via Bluetooth.</p>
-<p class="technologies">Swift, Core Bluetooth, and Cocoa Touch.</p>
-<h4>Yelder - September 2015</h4>
-<p>Yelder is a financial institution that offers various forms of personal loans such as credit cards using a number of different brand names.</p>
-<p>To simplify the process of registering for a personal loan for the purchase of a car, Luc worked on a web app in a team of three back-end developers and two front-end developers.
-The app makes it possible to easily and securely upload personal documents.</p>
-<p class="technologies">Java, Java EE, JUnit, Maven, and JBoss EAP.</p>
-<h4>LaSer Netherlands, LaSer UK, and LaSer Nordic - August 2014 - December 2015</h4>
-<p>LaSer is an international financial organization that offers personal loans, for example in the form of branded credit cards.</p>
-<p>In a team of about 20 software developers, designers, and project managers, Luc worked on a new self-service portal for LaSer UK that helped customers to manage their in-store credit.</p>
-<p>In a team of around 10 software developers, Luc extended an existing self-service portal for customers with branded credit cards issued by LaSer UK.</p>
-<p>For a number of existing self-service portals for customers with branded credit cards, Luc performed maintenance and solved production incidents.</p>
-<p class="technologies">Java, Java EE, JUnit, Maven, JBoss EAP, and JBoss BRMS.</p>
-<h4>GlobalCollect - March 2014 - June 2014</h4>
+<h3>iOS SDK - GlobalCollect - 2014</h3>
 <p>GlobalCollect was a global payment-service provider that is now part of Ingenico Group's Ingenico ePayments.
 Ingenico ePayments offers a platform for online payment processing.</p>
 <p>Luc worked as an iOS developer on a native SDK that helps iOS developers to connect their apps to the Ingenico ePayments platform. In addition, he created a demo application to illustrate the use of the SDK and wrote its technical documentation.</p>
 <p class="technologies">Objective-C, Cocoa Touch, AFNetworking, and SVProgressHUD.</p>
-<h3>Eindhoven University of Technology (TU/e) - 2006 - 2014</h3>
-<p>The Eindhoven University of Technology (TU/e) is a research university specializing in engineering science and technology.
-Its education, research, and knowledge valorization contribute to solving the major societal issues and boosting prosperity and welfare, as well as the development of technological innovation in cooperation with industry.
-Furthermore, it enhances progress in engineering sciences through excellence in key research cores and innovation in education.
-As an employee of the Eindhoven University of Technology, Luc had the following positions:</p>
-<h4>Postdoc and Teacher - Laboratory for Quality Software - 2012 - 2014</h4>
-<p>As a postdoctoral researcher and teacher, Luc performed research in the field of safety-critical software and assisted in teaching a number of courses for BSc students. In addition, he co-supervised a PhD student.</p>
-<p class="technologies">Python, jQuery, JavaScript, Epsilon, and Eugenia.</p>
-<h4>PhD Student - Software Engineering and Technology Group - 2008 - 2012</h4>
-<p>As a PhD student, Luc performed research in the field of model-driven software engineering and domain-specific languages. Additionally, he assisted in teaching a number of courses for MSc and post-MSc students.</p>
-<p class="technologies">mCRL2, POOSL, Promela, ASF+SDF, ATL, Eclipse Modeling Framework, Xpand, Xtend, and Xtext.</p>
-<h4>Junior Researcher - TU/e and ASML - 2006 - 2008</h4>
-<p>In a joint project between the TU/e and ASML, Luc investigated the transformation of UML models to a formal modeling language capable of performance analysis.</p>
-<p class="technologies">POOSL, ASF+SDF, Xpand, Xtend, and Xtext.</p>
-<h2>Education, Certifications, Training Courses</h2>
-<h3>Education</h3>
+<h2 class="new-page">Education</h2>
 <ul>
 <li>PhD (dr.), Eindhoven University of Technology (TU/e)</li>
 <li>MSc (ir.), Eindhoven University of Technology (TU/e)</li>
 <li>VWO, Jeanne D'Arc College Maastricht</li>
 </ul>
-<h3>Certifications</h3>
+<h2>Certifications</h2>
 <ul>
 <li>Professional Scrum Master I</li>
 <li>Oracle Certified Associate - Java SE7 Programmer I</li>
 <li>Oracle Certified Professional - Java SE7 Programmer II</li>
 <li>Certified SAFe 5 Scrum Master</li>
 </ul>
-<h3>Talks and publications</h3>
+<h2>Talks and publications</h2>
 <ul>
 <li>Talks at various Meetups and conferences:<ul>
 <li>Clojure for beginners (DevConf, March 2022)</li>
@@ -266,17 +252,12 @@ As an employee of the Eindhoven University of Technology, Luc had the following 
 <li>JSON Web Tokens (Java Meetup, October 2016)</li>
 </ul>
 </li>
-<li>Various blog posts on <a href="https://blog.confx.nl/">https://blog.cofx.nl/</a> and <a href="https://www.theguild.nl/">https://www.theguild.nl/</a>:<ul>
+<li>Various blog posts on <a href="https://blog.confx.nl/">https://blog.cofx.nl/</a> and <a href="https://www.theguild.nl/">https://www.theguild.nl/</a>, including:<ul>
 <li><a href="https://blog.cofx.nl/mongodb-indices-spring.html">Experimenting with MongoDB index creation and Spring Boot</a></li>
 <li><a href="https://blog.cofx.nl/dependency-injection-and-loggers-clojure.html">Dependency injection and loggers in Clojure</a></li>
-<li><a href="https://blog.cofx.nl/dependency-injection-and-protocols-in-clojure.html">Dependency injection and protocols in Clojure</a></li>
 <li><a href="https://www.theguild.nl/browser-beats-i-synthesizing-a-kick-drum">Browser Beats I: Synthesizing a kick drum</a></li>
-<li><a href="https://www.theguild.nl/browser-beats-ii-synthesizing-a-snare-drum-and-a-hi-hat">Browser Beats II: Synthesizing a snare drum and a hihat</a></li>
 <li><a href="https://www.theguild.nl/where-to-put-json-web-tokens-in-2019">Where to put JSON web tokens in 2019</a></li>
-<li><a href="https://www.theguild.nl/running-multiple-docker-containers-in-parallel-with-jenkins">Running multiple Docker containers in parallel with Jenkins</a></li>
 <li><a href="https://www.theguild.nl/reactive-java-using-the-vert-x-toolkit">Reactive Java using the Vert.x toolkit</a></li>
-<li><a href="https://www.theguild.nl/immutable-objects-in-python">Immutable objects in Python</a></li>
-<li><a href="https://www.theguild.nl/sending-data-to-the-other-side-of-the-world-json-protocol-buffers-rest-grpc">Sending data across the world: JSON vs protocol buffers and REST vs gRPC</a></li>
 <li><a href="https://www.theguild.nl/jenkinsfiles-for-beginners-and-masochists">Jenkinsfiles for beginners and masochists</a></li>
 <li><a href="https://www.theguild.nl/setting-up-dokku-on-azure-with-terraform-and-ansible-a-guided-tour">Setting up Dokku on Azure with Terraform and Ansible: a guided tour</a></li>
 <li><a href="https://www.theguild.nl/good-looking-pdfs-with-css-for-paged-media-and-markdown">Good-looking PDFs with CSS for paged media and markdown</a></li>
