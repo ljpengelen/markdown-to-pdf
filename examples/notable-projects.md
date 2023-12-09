@@ -6,7 +6,7 @@ Engie is a French multinational electric utility company, which is currently act
 Smart O&M is the software that takes care of their clients’ building assets in a fully transparent and efficient way.
 It predicts and tracks breakdowns in the buildings, optimizes operators’ rounds and monitors and evaluates contractual commitments.
 
-For Engie, Luc worked as a full-stack developer in a team of seven on a handful of back-end services and two front-end applications.
+For Engie, Luc worked as a full-stack developer (2020-2021) and backend developer (2022-2023) on a handful of back-end services and two front-end applications.
 In total, the back end of Engie's platform consists of around 50 microservices that communicate asynchronously via ActiveMQ and Amazon SQS, and synchronously via REST.
 
 Java, Spring Boot, Micronaut, Amazon SQS, Amazon Kinesis, MongoDB, Angular, NgRx, Cypress, Jest, and TypeScript.
