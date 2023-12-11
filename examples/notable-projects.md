@@ -12,12 +12,12 @@ In total, the back end of Engie's platform consists of around 50 microservices t
 Java, Spring Boot, Micronaut, Amazon SQS, Amazon Kinesis, MongoDB, Angular, NgRx, Cypress, Jest, and TypeScript.
 {: .technologies}
 
-### Proof-of-concept applications - APG - 2021-2022
+### Proof-of-concept applications - APG - 2021 - 2022
 
 To prepare for upcoming changes in legislation, APG wanted to replace part of its pension administration with an external application created by Festina Finance.
 To demonstrate the possibilities of the new system and its integration with existing software, Luc created a number of proof-of-concept applications.
 
-Clojure, ClojureScript, Ring, Reitit, HugSQL, next.jdbc, and re-frame.
+Clojure, ClojureScript, Ring, Reitit, HugSQL, HoneySQL, and re-frame.
 {: .technologies}
 
 ### Hertek Connect - Hertek - 2019 - 2020
