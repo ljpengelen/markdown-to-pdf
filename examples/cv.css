@@ -84,7 +84,11 @@ td:first-child, th:first-child {
   padding-left: 0;
 }
 
-.technologies {
+.technologies,
+.frontend-technologies,
+.backend-technologies,
+.mobile-technologies,
+.operations-technologies {
   font-style: italic;
   page-break-before: avoid;
 }
