@@ -1,6 +1,6 @@
 ## Notable projects {: .new-page}
 
-### Smart O&M - Engie - 2020 - 2023
+### Smart O&M - Engie - 2020 - 2024
 
 Engie is a French multinational electric utility company, which is currently actively developing its Smart O&M platform.
 Smart O&M is the software that takes care of their clients’ building assets in a fully transparent and efficient way.
