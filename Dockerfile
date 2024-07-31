@@ -19,7 +19,8 @@ RUN pip3 install --no-cache \
     markdown==3.5 \
     markdown-include==0.8.1 \
     weasyprint==60.1 \
-    watchdog==3.0.0
+    watchdog==3.0.0 \
+    pydyf==0.10.0
 
 RUN mkdir /app
 
