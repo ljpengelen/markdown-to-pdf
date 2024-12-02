@@ -3,7 +3,7 @@
 ### cofx - 2022 - present
 
 In december 2022, Luc started working as a freelance full-stack software developer under the company name *cofx*.
-For his first project, he returned to Engie's Smart O&M project as a backend developer.
+He has worked on projects for Equans, Engie, and Forescout.
 
 ### APG - 2021 - 2022
 
@@ -14,8 +14,9 @@ It is a direct subsidiary of ABP, the largest pension fund in the Netherlands.
 As a Java-developer, Luc worked on the automation of business processes.
 These processes are part of the *Generic Pension System (GPS)*, one of the largest software applications at APG.
 Additionally, his team was responsible for the maintenance of the front-end of GPS, implemented in Apache Flex.
+He also created internal testing tools and prototypes for the replacement of GPS with Clojure and ClojureScript.
 
-Java, Spring, Hibernate, Oracle DB, Activiti, Apache Flex, and Clojure.
+Java, Spring, Hibernate, Oracle DB, Activiti, Adobe Flex, and Clojure.
 {: .technologies}
 
 ### Kabisa - 2016 - 2021

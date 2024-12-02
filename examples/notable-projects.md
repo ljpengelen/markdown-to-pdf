@@ -1,6 +1,6 @@
 ## Notable projects {: .new-page}
 
-### Smart O&M - Engie - 2020 - 2024
+### Smart O&M - Equans and Engie - 2020 - 2024
 
 Engie is a French multinational electric utility company, which is currently actively developing its Smart O&M platform.
 Smart O&M is the software that takes care of their clients’ building assets in a fully transparent and efficient way.
@@ -36,7 +36,7 @@ For ASML, Luc worked in a team of three on a proof-of-concept application demons
 React, Redux, TypeScript, Karma, Mocha, Sinon, Chai, Java, Spring Boot, Mockito, and JUnit.
 {: .technologies}
 
-### Map toolkit - Signify - 2017 - 2028
+### Map toolkit - Signify - 2017 - 2018
 
 Signify is the new company name of Philips Lighting.
 Signify is a world leader in connected LED lighting systems, software, and services.
