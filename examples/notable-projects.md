@@ -73,7 +73,7 @@ Euramax uses a number of IT systems in their day-to-day operations.
 To simplify connecting these systems with each other and with external systems of, for example, their suppliers, they were looking for an enterprise service bus.
 Luc extended Flux, an existing Kabisa product, to suit the needs of Euramax and developed a number of flows that solved an immediate problem that Euramax was facing.
 
-Ruby on Rails, CoffeeScript, RSpec, Java, Junit, Maven, MongoDB, Elasticsearch, Docker, Linode, Amazon AWS, and Ansible.
+Ruby on Rails, CoffeeScript, RSpec, Java, Junit, Maven, MongoDB, Elasticsearch, Docker, Linode, AWS, and Ansible.
 {: .technologies}
 
 ### GSM-PRO - Conta-Clip - 2016

@@ -36,7 +36,7 @@ JavaScript, TypeScript, React, Redux, Karma, Mocha, Sinon, Chai, Angular, NgRx, 
 Apache Cordova in combination with React and previously Backbone.js.
 {: .mobile-technologies}
 
-Docker, Linode, Amazon AWS, Jenkins, Ansible, and Terraform.
+Docker, Linode, AWS, Jenkins, Ansible, and Terraform.
 {:.operations-technologies}
 
 ### ISAAC - 2014 - 2016

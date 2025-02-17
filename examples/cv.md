@@ -10,7 +10,7 @@ He is a full-stack developer, focussing on React-based front ends, cross-platfor
 Before switching to software development, he obtaining his PhD at the Eindhoven University of Technology (TU/e) and worked as a Postdoctoral researcher and teacher at the same university.
 
 His background in academia combined with his practical experience with a range of programming languages and technologies allows him to reason about the big picture while keeping an eye on the details.
-His experience as a software engineer within various companies combined with his experience as a volunteer within various sports clubs gives him an eye for processes and collaboration within teams.
+His experience as a software engineer and scrum master within various companies combined with his experience as a volunteer within various sports clubs gives him an eye for processes and collaboration within teams.
 
 {!employment-history.md!}
 
