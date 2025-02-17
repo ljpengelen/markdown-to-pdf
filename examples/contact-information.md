@@ -1,4 +1,6 @@
 <div class="contact-information" markdown>
+<img src="cofx-logo-text.svg"/>
+
 * Hogeweg 16
 * 6367 BD Voerendaal
 * <a href="mailto:luc@cofx.nl">luc@cofx.nl</a>
