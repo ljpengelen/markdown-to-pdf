@@ -5,6 +5,9 @@
 In december 2022, Luc started working as a freelance full-stack software developer under the company name *cofx*.
 He has worked on projects for Equans, Engie, and Forescout.
 
+Java, Spring Boot, AWS, PostgreSQL, MongoDB, Clojure, ClojureScript, Angular, React, JavaScript, and TypeScript.
+{: .technologies}
+
 ### APG - 2021 - 2022
 
 At APG, Luc worked as software developer and scrum master.
