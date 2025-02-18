@@ -1,5 +1,5 @@
 @page {
-  margin-top: 3cm;
+  margin-top: 2cm;
   size: A4;
 
   @bottom-right {
@@ -9,13 +9,6 @@
   @bottom-center {
     color: #808080;
     content: string(heading-name) " - " string(heading-title);
-  }
-
-  @top-right {
-    background: url(kabisa-logo-two-color.svg) no-repeat bottom;
-    background-size: 5cm;
-    content: "";
-    width: 5cm;
   }
 }
 
@@ -31,7 +24,7 @@
 
 html {
   font-family: system-ui;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
@@ -40,17 +33,18 @@ h1 {
   page: cover;
   string-set: heading-name content();
   margin-bottom: 0;
-  margin-top: 50%;
+  margin-top: 20rem;
 }
 
 .job-title {
   font-style: italic;
+  margin-bottom: 5rem;
   margin-top: 0;
   string-set: heading-title content();
 }
 
 .contact-information {
-  font-size: 0.75rem;
+  font-size: 1rem;
   padding: 1rem;
   position: absolute;
   right: 0;
@@ -62,8 +56,11 @@ h1 {
   list-style-type: none;
 }
 
-h2 {
+.new-page {
   page-break-before: always;
+}
+
+h2 {
   string-set: heading content();
 }
 
@@ -87,13 +84,37 @@ td:first-child, th:first-child {
   padding-left: 0;
 }
 
-.technologies {
+.technologies,
+.frontend-technologies,
+.backend-technologies,
+.mobile-technologies,
+.operations-technologies {
   font-style: italic;
   page-break-before: avoid;
 }
 
 .technologies::before {
-  content: "Technologies used: ";
+  content: "Main technologies: ";
+  font-weight: bold;
+}
+
+.frontend-technologies::before {
+  content: "Frontend: ";
+  font-weight: bold;
+}
+
+.backend-technologies::before {
+  content: "Backend: ";
+  font-weight: bold;
+}
+
+.mobile-technologies::before {
+  content: "Mobile: ";
+  font-weight: bold;
+}
+
+.operations-technologies:before {
+  content: "Operations: ";
   font-weight: bold;
 }
 
