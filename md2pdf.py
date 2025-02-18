@@ -52,7 +52,6 @@ class EventHandler(FileSystemEventHandler):
         self.css_file_name = css_file_name
 
     def on_modified(self, event):
-        print(event.src_path)
         if event.src_path.endswith(".css") or event.src_path.endswith(".md"):
             click.echo(f"{event.src_path} has changed")
             _convert(self.markdown_file_name, self.css_file_name)
