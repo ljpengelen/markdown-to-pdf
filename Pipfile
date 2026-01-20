@@ -11,7 +11,7 @@ pylint = "3.0.1"
 click = "8.1.7"
 markdown = "3.5"
 markdown-include = "0.8.1"
-weasyprint = "60.1"
+weasyprint = "68.0"
 watchdog = "3.0.0"
 
 [requires]
