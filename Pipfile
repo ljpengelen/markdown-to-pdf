@@ -9,7 +9,7 @@ pylint = "3.0.1"
 
 [packages]
 click = "8.1.7"
-markdown = "3.5"
+markdown = "3.8.1"
 markdown-include = "0.8.1"
 weasyprint = "70.0"
 watchdog = "3.0.0"
