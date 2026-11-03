@@ -5,7 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 black = "26.10.1"
-pylint = "3.0.1"
+pylint = "4.0.9"
 
 [packages]
 click = "8.1.7"
